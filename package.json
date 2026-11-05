@@ -1,0 +1,15 @@
+{
+  "name": "spotify",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "read": "bun run scripts/cleanup.ts read",
+    "apply": "bun run scripts/cleanup.ts apply",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}
